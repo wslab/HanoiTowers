@@ -9,8 +9,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Tower tower = new Tower(5);
-            Assert.AreEqual(tower.numberOfDisks, 5);
+            Towers tower = new Towers(5);
+            Assert.AreEqual(tower.numberOfDiscs, 5);
         }
     }
 }
